@@ -1,4 +1,4 @@
-import {ReactComponent as Github_Icon} from 'assets/img/github.svg'; 
+import {ReactComponent as GithubIcon} from 'assets/img/github.svg'; 
 import './styles.css';  
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
                     <h1>DSMovie</h1>
                     <a href="https://github.com/danilocalvalhan/DSMovie">
                         <div className="dsmovie-contact-container">
-                            <Github_Icon />
+                            <GithubIcon />
                             <p>/danilocalvalhan</p>
                         </div>
 
