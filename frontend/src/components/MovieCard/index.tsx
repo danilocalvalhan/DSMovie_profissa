@@ -1,15 +1,12 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
 
-function MovieCard() {
+type Props = {
+    movie: Movie;
+}
 
-    const movie = {
-        id: 1,
-        image: "https://www.themoviedb.org/t/p/original/cKNxg77ll8caX3LulREep4C24Vx.jpg",
-        title: "Batman (2022)",
-        count: 2,
-        score: 4.5
-    };
+function MovieCard( {movie} : Props ) {
 
     return (
 
